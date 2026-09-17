@@ -1,0 +1,15 @@
+* **`git init`** — Create a new local Git repository
+* **`git clone <url>`** — Download an existing remote repository
+* **`git status`** — Check the status of your files (untracked, modified, staged)
+* **`git add .`** — Stage all changed files for the next commit
+* **`git commit -m "message"`** — Save staged changes with a descriptive message
+* **`git branch`** — List all local branches
+* **`git switch -c <branch-name>`** — Create and switch to a new branch
+* **`git switch <branch-name>`** — Switch to an existing branch
+* **`git merge <branch-name>`** — Merge another branch into your current active branch
+* **`git pull`** — Fetch and integrate changes from the remote repository
+* **`git push origin <branch-name>`** — Upload local commits to the remote repository
+* **`git log --oneline`** — View a clean, single-line summary of commit history
+* **`git restore <file>`** — Discard uncommitted changes in your working directory
+* **`git restore --staged <file>`** — Unstage a file while keeping your changes
+* **`git reset --hard HEAD~1`** — Permanently undo the last commit and discard all changes
